@@ -13,8 +13,8 @@ class BikeBuilder implements BuilderInterface{
 	}
 
 	public function addWheels(){
-		$this->bike->setPart('forwardWheel', new Parts\wheels());
-		$this->bike->setPart('realWheel', new Parts\wheels());
+		$this->bike->setPart('forwardWheel', new Parts\wheel());
+		$this->bike->setPart('realWheel', new Parts\wheel());
 	}
 
 	public function addEngine(){
